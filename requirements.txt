@@ -1,0 +1,4 @@
+PyQt5>=5.15.0
+pycryptodome>=3.10.1
+Pillow>=8.0.0
+configparser>=5.0.0 
