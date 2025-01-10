@@ -60,7 +60,7 @@ This will:
 
 3. Verify installation:
 ```bash
-python -m fortressguard
+python -m FortressGuard
 ```
 
 The application should launch with all paths properly configured.
