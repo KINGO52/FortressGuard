@@ -41,29 +41,16 @@ A state-of-the-art encryption and security suite that combines military-grade en
 
 ## 🚀 Installation & Setup
 
-1. Clone the repository:
+1. Make sure you have Python 3.7 or higher installed
+2. Download this repository as ZIP or clone it:
 ```bash
 git clone https://github.com/KINGO52/FortressGuard.git
-cd FortressGuard
 ```
 
-2. Install the package in development mode:
-```bash
-python setup.py develop
-```
+3. Double-click `setup.bat` to install (only needed once)
+4. Double-click `open.bat` to start FortressGuard
 
-This will:
-- Create necessary directories in your home folder (`~/.fortressguard`)
-- Set up configuration files
-- Install required dependencies
-- Configure paths for your system
-
-3. Verify installation:
-```bash
-python -m FortressGuard
-```
-
-The application should launch with all paths properly configured.
+The application will automatically create all necessary directories and configurations.
 
 ### Directory Structure After Setup:
 ```
@@ -75,36 +62,9 @@ The application should launch with all paths properly configured.
 └── passwords.json         # Encrypted password database
 ```
 
-### For Developers
-
-If you're developing or modifying the code:
-
-1. Create a virtual environment (recommended):
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-2. Install in development mode:
-```bash
-pip install -e .
-```
-
-3. Run tests:
-```bash
-python -m pytest tests/
-```
-
 ## 💻 Usage
 
-Launch FortressGuard using either:
-```bash
-# If installed via setup.py
-fortressguard
-
-# Or directly via Python
-python -m fortressguard
-```
+Launch FortressGuard by double-clicking `open.bat`
 
 ## 🔐 Security Features
 
