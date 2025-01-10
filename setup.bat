@@ -3,15 +3,15 @@ echo Setting up FortressGuard...
 
 :: Uninstall existing crypto packages to avoid conflicts
 echo Cleaning up existing installations...
-pip uninstall -y pycrypto
-pip uninstall -y pycryptodome
+python -m pip uninstall -y pycrypto
+python -m pip uninstall -y pycryptodome
 
 :: Install required packages
 echo Installing required packages...
-pip install pycryptodome==3.19.0
-pip install PyQt5>=5.15.0
-pip install Pillow>=8.0.0
-pip install configparser>=5.0.0
+python -m pip install pycryptodome==3.19.0
+python -m pip install PyQt5>=5.15.0
+python -m pip install Pillow>=8.0.0
+python -m pip install configparser>=5.0.0
 
 :: Install the package in development mode
 echo Installing FortressGuard...
