@@ -43,6 +43,15 @@ paranoid_mode = false
 auto_backup = true
 """)
 
+def read_readme():
+    """Read README.md with UTF-8 encoding"""
+    try:
+        with open('README.md', 'r', encoding='utf-8') as f:
+            return f.read()
+    except Exception as e:
+        print(f"Warning: Could not read README.md: {e}")
+        return "FortressGuard - A secure encryption and password management system"
+
 def main():
     app_dir = create_config_directories()
     write_config(app_dir)
@@ -55,6 +64,7 @@ def main():
             'PyQt5>=5.15.0',
             'pycryptodome>=3.10.1',
             'Pillow>=8.0.0',
+            'configparser>=5.0.0',
         ],
         entry_points={
             'console_scripts': [
@@ -64,7 +74,7 @@ def main():
         author="Your Name",
         author_email="your.email@example.com",
         description="A secure encryption and password management system",
-        long_description=open('README.md').read(),
+        long_description=read_readme(),
         long_description_content_type="text/markdown",
         url="https://github.com/yourusername/fortressguard",
         classifiers=[
