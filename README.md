@@ -82,3 +82,5 @@ FortressGuard stands out with its combination of powerful security features and 
 ## 📜 License
 
 MIT License - See LICENSE file for details 
+##📝 Notes
+*The code does have notes as needed so if you wish to edit the Software there notes for your comfort enjoy😉 
