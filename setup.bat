@@ -12,6 +12,8 @@ python -m pip install pycryptodome==3.19.0
 python -m pip install PyQt5>=5.15.0
 python -m pip install Pillow>=8.0.0
 python -m pip install configparser>=5.0.0
+python -m pip install setuptools
+
 
 :: Install the package in development mode
 echo Installing FortressGuard...
