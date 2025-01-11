@@ -1044,9 +1044,7 @@ class PasswordManager:
         self.password_store = {}
         self.save_to_file()
 
-# Passwords are saved in the following file:
-# C:/Users/raijm/Downloads/passwords.json
-
+# Passwords are saved
 class PasswordStorageWidget(QWidget):
     def __init__(self, cryptosystem):
         super().__init__()
