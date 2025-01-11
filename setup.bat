@@ -17,5 +17,5 @@ python -m pip install configparser>=5.0.0
 echo Installing FortressGuard...
 python setup.py develop --user
 
-echo Setup complete! You can now run FortressGuard using: python -m fortressguard
+echo Setup complete! You can now run FortressGuard using: python -m fortressguard you can also click on open.bat
 pause 
