@@ -2670,8 +2670,6 @@ class MainWindow(QMainWindow):
         # Set dark background
         self.setStyleSheet("background-color: #2E2E2E; color: #FFFFFF;")
         
-        # Set window icon
-        self.setWindowIcon(QIcon("C:/Users/raijm/Downloads/icon crypt.ico"))  # Update this path to your icon file
         
         # Create central widget and layout
         central_widget = QWidget()
